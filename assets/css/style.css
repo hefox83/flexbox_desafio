@@ -1,4 +1,49 @@
+body{
+   font-family: 'Roboto', sans-serif;
+}
 .flexcontainer{
    display: flex;
-   justify-content: flex-start; 
+   
+   
 }
+.chat{
+   display: flex;
+   width: 20%;
+
+}
+
+.window{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   background-color: #e8ebe4;
+   width: 80%;
+   height: 100vh;
+}
+.w2{
+   display: flex; 
+   padding: 30px;
+   width: 200px;
+   height: 200px;
+   margin:0%;
+   padding: 0%;
+}
+
+.w3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   text-align:center;
+   margin: 0px;
+   padding: 0px;
+}
+ .htext{
+   font-size: 45px;
+   margin-bottom: 0%;
+   padding-bottom: 0%;
+   border-bottom: 0%;
+ }
