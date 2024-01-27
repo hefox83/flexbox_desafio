@@ -9,9 +9,40 @@ body{
 .chat{
    display: flex;
    width: 20%;
+   height: 100vh;
+   flex-direction: column;
+} 
+.p1{
+   display: flex;
+   justify-content: space-between;
+   padding: 1%;
+   align-items: center;
+   border-bottom: solid 2px #e8ebe4 ;
+}
+.pi1{
+   width: 35px;
+   border-radius: 100%;
+}
+.pt1{
+  flex-grow: 2;
+  padding: 10px;
 
 }
-
+.n1{
+   font-size: 16px;
+   font-weight: bolder;
+   padding: 0%;
+   margin: 0%;
+}
+.estado{
+   font-size: 14px;
+   padding: 0%;
+   margin: 0%;
+}
+.pi2{
+   padding: 10px;
+   color: #838485;
+}
 .window{
    display: flex;
    flex-direction: column;
