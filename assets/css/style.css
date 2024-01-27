@@ -43,6 +43,16 @@ body{
    padding: 10px;
    color: #838485;
 }
+.boton{
+
+}
+
+
+
+
+
+
+
 .window{
    display: flex;
    flex-direction: column;
@@ -55,9 +65,8 @@ body{
 }
 .w2{
    display: flex; 
-   padding: 30px;
-   width: 200px;
-   height: 200px;
+
+   width: 250px;
    margin:0%;
    padding: 0%;
 }
